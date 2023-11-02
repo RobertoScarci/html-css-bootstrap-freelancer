@@ -2,10 +2,6 @@
     background-color: #19BC9B;
 }
 
-.red{
-    background-color: red;
-}
-
 .grey{
     background-color: darkgray;
 }
@@ -27,7 +23,7 @@ button{
 }
 
 .my_wrapper{
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -45,5 +41,12 @@ header{
     main{
         width: 90%;
         margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:768px){
+    .navbar{
+        padding-left: 8%;
+        padding-right: 8%;
     }
 }
