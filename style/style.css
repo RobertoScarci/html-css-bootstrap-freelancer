@@ -1,5 +1,5 @@
 .acqua{
-    background-color: aqua;
+    background-color: #19BC9B;
 }
 
 .red{
@@ -14,9 +14,39 @@
     background-color: darkslategray;
 }
 
+.about-us{
+    color: white;
+}
+
+img{
+    height: 12rem;
+}
+
+button{
+    color: grey;
+}
+
+.navbar{
+    color: white;
+}
+
+.my_wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 20px;
+}
+
+header{
+    background-color: #2C3E4F;
+    color: white;
+}
+
 @media screen and (min-width:992px){
     main{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 }
