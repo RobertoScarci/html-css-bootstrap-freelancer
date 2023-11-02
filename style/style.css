@@ -45,9 +45,27 @@ i{
     font-size: 35px;
 }
 
+.form-floating{
+    height: 100px;
+}
+
+.fa-download{
+    font-size: 15px;
+}
+
 @media screen and (min-width:992px){
     main{
-        width: 80%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .my_wrapper-small{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .my_wrapper-big{
+        width: 75%;
         margin: 0 auto;
     }
 
