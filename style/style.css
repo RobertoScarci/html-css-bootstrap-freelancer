@@ -1,17 +1,17 @@
-.acqua{
+.my-bg-lightgreen{
     background-color: #19BC9B;
 }
 
-.grey{
-    background-color: darkgray;
-}
-
-.black{
-    background-color: darkslategray;
+.my-bg-dark{
+    background-color: #2C3E4F;
 }
 
 .about-us{
     color: white;
+}
+
+#portfolio img{
+    width: 100%;
 }
 
 button{
@@ -23,7 +23,7 @@ button{
 }
 
 .my_wrapper{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -39,15 +39,8 @@ header{
 
 @media screen and (min-width:992px){
     main{
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
-}
-
-@media screen and (min-width:768px){
-    .navbar{
-        padding-left: 8%;
-        padding-right: 8%;
-    }
 }
