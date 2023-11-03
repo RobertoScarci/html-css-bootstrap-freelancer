@@ -54,6 +54,42 @@ i{
     font-size: 15px;
 }
 
+.my_vertical-star::before,
+.my_vertical-star::after{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 15%;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 10%;
+    margin-top: .8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.my_vertical-star-blue::before,
+.my_vertical-star-blue::after{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 15%;
+    vertical-align: middle;
+    background-color: #2C3E4F;
+    border-radius: 10%;
+    margin-top: .8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.my_vertical-star-blue i{
+    vertical-align: middle;
+}
+
+.my_vertical-star i{
+    vertical-align: middle;
+}
+
 
 @media screen and (min-width:992px){
     main{
